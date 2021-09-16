@@ -60,6 +60,7 @@ class DX_Template_Protector {
 	public function dxdt_opt_in_callback() {
 		$enabled = false;
 		$out     = '';
+		$val     = false;
 
 		// check if checkbox is checked
 		if ( ! empty( $this->dxdt_setting ) && isset( $this->dxdt_setting['dxdt_opt_in'] ) ) {
