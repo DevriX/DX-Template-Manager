@@ -7,7 +7,7 @@ class DX_Template_Protector {
 	/**
 	 * Construct me
 	 */
-	public function DX_Template_Protector() {
+	public function __construct() {
 
 		$this->dxdt_setting = get_option( 'dxdt_setting', '' );
 		// add an admin page for agreement before activating the plugin

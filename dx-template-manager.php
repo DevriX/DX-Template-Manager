@@ -11,7 +11,7 @@ Version: 1.1
 include 'dx-template-protector.class.php';
 
 class DX_Template_Manager {
-	public function DX_Template_Manager() {
+	public function __construct() {
 		// register custom post type for DX template
 		add_action( 'init', array( &$this, 'post_type_callback' ) );
 
