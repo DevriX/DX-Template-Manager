@@ -1,3 +1,7 @@
+.h2 {
+    font-size: 2em;
+}
+
 #dxtemplate-form input[type="submit"] {
     text-transform: capitalize;
     box-shadow: 0.125em 0.125em 0.125em #a1a1a1;
