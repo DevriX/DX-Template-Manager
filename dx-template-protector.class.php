@@ -63,12 +63,7 @@ class DX_Template_Protector {
 		$val     = false;
 
 		// check if checkbox is checked
-<<<<<<< HEAD
-		$val = false;
-		if(! empty( $this->dxdt_setting ) && isset ( $this->dxdt_setting['dxdt_opt_in'] ) ) {
-=======
 		if ( ! empty( $this->dxdt_setting ) && isset( $this->dxdt_setting['dxdt_opt_in'] ) ) {
->>>>>>> 68530eb322c9d5ecd321495ee444de76261a2df1
 			$val = true;
 		}
 

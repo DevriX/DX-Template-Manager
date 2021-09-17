@@ -8,18 +8,10 @@
 	</strong></p>
 
 	<form id="dxtemplate-form" action="options.php" method="POST">
-<<<<<<< HEAD
 		
 			<?php settings_fields('dxdt_setting') ?>
 			<?php do_settings_sections( 'dx-template-options' ) ?>
 			
 			<input type="submit" value="Confirm" />
-=======
-
-			<?php settings_fields( 'dxdt_setting' ); ?>
-			<?php do_settings_sections( 'dx-template-options' ); ?>
-
-			<input type="submit" value="I agree" />
->>>>>>> 68530eb322c9d5ecd321495ee444de76261a2df1
 	</form> <!-- end of #dxtemplate-form -->
 </div>
