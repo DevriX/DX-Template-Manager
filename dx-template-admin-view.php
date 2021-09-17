@@ -12,6 +12,6 @@
 			<?php settings_fields('dxdt_setting') ?>
 			<?php do_settings_sections( 'dx-template-options' ) ?>
 			
-			<input type="submit" value="I agree" />
+			<input type="submit" value="Confirm" />
 	</form> <!-- end of #dxtemplate-form -->
 </div>

@@ -23,8 +23,9 @@ class DX_Template_Manager {
 		add_action( 'add_meta_boxes', array($this, 'meta_boxes_callback') );
 		
 		add_action( 'save_post', array($this, 'update_dynamic_template') );
-		
+
 	}
+
 	
 	/**
 	 * Registers the dxtemplate custom post type
@@ -201,3 +202,13 @@ if($dx_template_protector->is_enabled()) {
 	$dx_template_manager = new DX_Template_Manager();
 }
 
+/**
+ * Enqueue custom css for the specific admin page
+ */
+function wpdocs_selectively_enqueue_admin_script( $hook ) {
+	if ($hook === 'settings_page_dx-template-options') {
+		wp_enqueue_style( 'main', plugin_dir_url( __FILE__ ) . 'assets/dist/main.css', array(), '1.0' );
+
+	}
+}
+add_action( 'admin_enqueue_scripts', 'wpdocs_selectively_enqueue_admin_script' );
