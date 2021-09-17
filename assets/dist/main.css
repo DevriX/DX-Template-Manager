@@ -37,17 +37,5 @@
 }
 
 #dxtemplate-form input[type="submit"] {
-    text-transform: capitalize;
-    box-shadow: 0.125em 0.125em 0.125em #a1a1a1;
-    padding: 0.375em 0.75em;
-    border-radius: 0.25em;
-    cursor: pointer;
-    transition: all 0.2s linear;
     margin-top: 2.5em;
-}
-
-#dxtemplate-form input[type="submit"]:hover {
-    color: #000;
-    background: #fff;
-    transition: all 0.2s linear;
 }

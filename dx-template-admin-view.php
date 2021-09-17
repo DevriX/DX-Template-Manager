@@ -12,6 +12,6 @@
 			<?php settings_fields('dxdt_setting') ?>
 			<?php do_settings_sections( 'dx-template-options' ) ?>
 			
-			<input type="submit" value="Save" />
+			<input type="submit" class="button button-primary" value="Save" />
 	</form> <!-- end of #dxtemplate-form -->
 </div>
