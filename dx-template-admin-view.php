@@ -13,5 +13,14 @@
 			<?php do_settings_sections( 'dx-template-options' ) ?>
 			
 			<input type="submit" class="button button-primary" value="Save" />
+
+        <div class="wrap">
+            <h1><strong>DX Template Support</strong></h1>
+
+            <h2>Need help?</h2>
+            <p>Do you like DX Template Manager, you need support or additional features/functionality? Help us out by leaving us a review!</p>
+            <a class="button-primary" target="_blank" href="https://wordpress.org/support/plugin/dx-template-manager/">Give a review</a>
+
+        </div>
 	</form> <!-- end of #dxtemplate-form -->
 </div>
