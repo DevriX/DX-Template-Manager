@@ -54,7 +54,7 @@ class DX_Template_Protector {
 	}
 
 	public function dxdt_settings_callback() {
-		echo 'Enable me';
+		echo '';
 	}
 
 	public function dxdt_opt_in_callback() {
