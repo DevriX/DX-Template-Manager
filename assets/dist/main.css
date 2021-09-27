@@ -2,6 +2,29 @@
     margin-top: 64px;
 }
 
+.dx-template-wrapper {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.dx-template-wrapper .postbox {
+    padding: 5px;
+}
+.dx-template-wrapper .postbox h3{
+    font-size: 14px;
+    margin-left: 12px;
+}
+.dx-template-wrapper .postbox a{
+   text-decoration: none;
+}
+
+.sidebar-footer {
+    border-top: 1px solid #77777785;
+    text-align: center;
+    padding-top: 5px;
+}
+
 .wrap {
     font-size: 0;
 }
