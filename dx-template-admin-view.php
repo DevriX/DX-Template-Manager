@@ -16,7 +16,8 @@
 
     </div>
 	</form> <!-- end of #dxtemplate-form -->
-
+<div class="sidebars">
 	<?php include_once( '_sidebar-right.php' );?>
-
+	<?php include_once( '_sidebar-right-bottom.php' );?>
+</div>
 </div>
