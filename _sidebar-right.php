@@ -24,17 +24,12 @@ defined('ABSPATH') or die("Direct access to the script does not allowed");
 		<div class="postbox">
 			<h3><span><?php esc_attr_e('Get help','dx-template-options');?></span></h3>
 			<div class="inside">
-				<div>
-					<ul>
-						<li><a target="_blank" href="https://wordpress.org/plugins/dx-template-manager/"><span class="dashicons dashicons-admin-home"></span> <?php esc_attr_e( 'Plugin Homepage', 'dx-template-options' );?></a></li>
-                        <li><a target="_blank" href="https://devrix.com/contact/"><span class="dashicons dashicons-email-alt"></span> <?php esc_attr_e( 'Contact us', 'dx-template-options' );?></a></li>
-                        <li><a target="_blank" href="https://wordpress.org/support/plugin/dx-template-manager/"><span class="dashicons dashicons-groups"></span> <?php esc_attr_e( 'Support', 'dx-template-optionsn' );?></a></li>
-                        <li><a target="_blank" href="https://wordpress.org/support/plugin/dx-template-manager/reviews/"><span class="dashicons dashicons-star-filled"></span> <?php esc_attr_e( 'Review', 'dx-template-optionsn' );?></a></li>
-                    </ul>
-				</div>
-				<div class="sidebar-footer">
-					&copy; <?php echo date('Y');?> <a class="no-underline text-highlighted" href="http://devrix.com" title="DevriX" target="_blank">DevriX</a>
-				</div>
+                <ul>
+                    <li><a target="_blank" href="https://wordpress.org/plugins/dx-template-manager/"><span class="dashicons dashicons-admin-home"></span> <?php esc_attr_e( 'Plugin Homepage', 'dx-template-options' );?></a></li>
+                    <li><a target="_blank" href="https://devrix.com/contact/"><span class="dashicons dashicons-email-alt"></span> <?php esc_attr_e( 'Contact us', 'dx-template-options' );?></a></li>
+                    <li><a target="_blank" href="https://wordpress.org/support/plugin/dx-template-manager/"><span class="dashicons dashicons-groups"></span> <?php esc_attr_e( 'Support', 'dx-template-optionsn' );?></a></li>
+                    <li><a target="_blank" href="https://wordpress.org/support/plugin/dx-template-manager/reviews/"><span class="dashicons dashicons-star-filled"></span> <?php esc_attr_e( 'Review', 'dx-template-optionsn' );?></a></li>
+                </ul>
 			</div>
 		</div>
 	</div>
