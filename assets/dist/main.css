@@ -4,10 +4,13 @@
 
 .dx-template-wrapper {
     display: flex;
+    justify-content: space-between;
     margin-top: 20px;
     margin-right: 20px;
 }
-
+.wrap.content-wrapper {
+    margin-top: 0;
+}
 .dx-template-wrapper .postbox {
     padding: 5px;
 }
@@ -17,6 +20,11 @@
 }
 .dx-template-wrapper .postbox a{
    text-decoration: none;
+}
+
+.sidebars {
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar-footer {
