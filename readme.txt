@@ -1,10 +1,11 @@
 === DX Template Manager ===
 Contributors: devrix, nofearinc
-Donate link: http://devrix.com/
+Donate link: https://devrix.com/
 Tags: template, php, evaluation, execute
-Requires at least: 3.3.1
-Tested up to: 4.6
-Stable tag: 1.2
+Requires at least: 4.3
+Tested up to: 5.8
+Stable tag: 1.3
+Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,7 +57,14 @@ Your full HTML as it would be in your page template file. HTML, head and body se
 2. Creating a dynamic page template
 3. Assigning a dynamic template to a post
 
+== Upgrade Notice ==
+
 == Changelog ==
+
+= 1.3 =
+* Added more DevriX Plugins links with Sidebar
+* Changed the styles of the settings page
+* Fixed Deprecated functions
 
 = 1.2 =
 * Small update and version bump

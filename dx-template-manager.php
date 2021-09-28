@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: DX Template Manager
-Plugin URI: http://devrix.com/template-manager
+Plugin URI: https://devrix.com/template-manager
 Description: Define specific unique templates for your pages from within the admin panel
 Author: nofearinc
-Author URI: http://devwp.eu
-Version: 1.1
+Author URI: https://devrix.com/
+Version: 1.3
 */
 
 include 'dx-template-protector.class.php';
