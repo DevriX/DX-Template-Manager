@@ -28,7 +28,7 @@ defined('ABSPATH') or die("Direct access to the script does not allowed");
 						<ul>
 							<li><a target="_blank" href="https://bg.wordpress.org/plugins/easy-image-gallery/"><span class="dashicons dashicons-admin-plugins"></span> <?php esc_attr_e( 'Easy Image Gallery', 'dx-template-options' );?></a></li>
 							<li><a target="_blank" href="https://wordpress.org/plugins/devrix-dark-site/"><span class="dashicons dashicons-admin-plugins"></span> <?php esc_attr_e( 'DX Dark Site', 'dx-template-options' );?></a></li>
-							<li><a target="_blank" href="https://wordpress.org/plugins/dx-share-selection/"><span class="dashicons dashicons-admin-plugins"></span> <?php esc_attr_e( 'DX Share Selection', 'dx-template-optionsn' );?></a></li>
+							<li><a target="_blank" href="https://wordpress.org/plugins/dx-share-selection/"><span class="dashicons dashicons-admin-plugins"></span> <?php esc_attr_e( 'DX Share Selection', 'dx-template-options' );?></a></li>
                         </ul>
 					</div>
 					<div class="sidebar-footer">
