@@ -74,10 +74,12 @@ class DX_Template_Manager {
 	public function apply_remote_template( $template ) {
 		global $post;
 
-		$post_id = $post->ID;
+		if ( in_the_loop() ) {
+			$post_id = $post->ID;
 
-		// check if a dxtemplate is been set
-		$meta_template_id = get_post_meta( $post_id, 'dxtemplate', true );
+			// check if a dxtemplate is been set
+			$meta_template_id = get_post_meta( $post_id, 'dxtemplate', true );
+		}
 
 		// get default template if not set
 		if ( empty( $meta_template_id ) ) {
