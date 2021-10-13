@@ -1,6 +1,5 @@
 <?php
 
-
 class DX_Template_Protector {
 
 	private $dxdt_setting;

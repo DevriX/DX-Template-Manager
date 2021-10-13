@@ -207,7 +207,7 @@ if ( $dx_template_protector->is_enabled() ) {
  * Enqueue custom css for the specific admin page
  */
 function wpdocs_selectively_enqueue_admin_script( $hook ) {
-	if ($hook === 'settings_page_dx-template-options') {
+	if ( 'settings_page_dx-template-options' === $hook ) {
 		wp_enqueue_style( 'main', plugin_dir_url( __FILE__ ) . 'assets/dist/main.css', array(), '1.0' );
 
 	}

@@ -8,16 +8,14 @@
 	</strong></p>
 
 	<form id="dxtemplate-form" action="options.php" method="POST">
-		
-			<?php settings_fields('dxdt_setting') ?>
-			<?php do_settings_sections( 'dx-template-options' ) ?>
-			
+			<?php settings_fields( 'dxdt_setting' ); ?>
+			<?php do_settings_sections( 'dx-template-options' ); ?>
 			<input type="submit" class="button button-primary" value="Save" />
 
-    </div>
+	</div>
 	</form> <!-- end of #dxtemplate-form -->
 <div class="sidebars">
-	<?php include_once( '_sidebar-right.php' );?>
-	<?php include_once( '_sidebar-right-bottom.php' );?>
+	<?php include_once( '_sidebar-right.php' ); ?>
+	<?php include_once( '_sidebar-right-bottom.php' ); ?>
 </div>
 </div>
